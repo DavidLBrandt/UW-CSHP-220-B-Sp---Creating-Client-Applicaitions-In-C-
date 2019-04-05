@@ -1,0 +1,15 @@
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.csprojAssemblyReference.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.lref
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\WpfApplication1\obj\Debug\WpfApplication1.pdb

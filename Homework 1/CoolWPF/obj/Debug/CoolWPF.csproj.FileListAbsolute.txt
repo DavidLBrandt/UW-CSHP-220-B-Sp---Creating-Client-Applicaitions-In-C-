@@ -1,0 +1,13 @@
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\bin\Debug\CoolWPF.exe.config
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\bin\Debug\CoolWPF.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\bin\Debug\CoolWPF.pdb
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\MainWindow.baml
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\MainWindow.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\App.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF_MarkupCompile.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.g.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.Properties.Resources.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.csproj.GenerateResource.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\CoolWPF\obj\Debug\CoolWPF.pdb

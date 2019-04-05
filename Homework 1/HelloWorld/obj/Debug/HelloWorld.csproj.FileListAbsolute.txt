@@ -1,0 +1,15 @@
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\MainWindow.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\App.g.cs
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.lref
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\MainWindow.baml
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.g.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\David\OneDrive\Courses\UW CSHP 220 B Sp - Creating Client Applicaitions In C#\HelloWorld\obj\Debug\HelloWorld.pdb
