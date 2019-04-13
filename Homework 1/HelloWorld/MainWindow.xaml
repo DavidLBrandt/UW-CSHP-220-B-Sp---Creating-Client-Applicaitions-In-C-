@@ -5,14 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
-        Title="MainWindow" WindowState="Maximized" Height="350" Width="525">
+        Title="MainWindow" 
+        WindowState="Normal" 
+        Height="350" 
+        Width="525">
 
-    <StackPanel>
+    <StackPanel x:Name="uxContainer" FocusManager.FocusedElement="{Binding ElementName=uxName}">
 
         <TextBlock>Enter Name:</TextBlock>
-        <TextBox x:Name="uxName" TextChanged="UxName_TextChanged"></TextBox>
+
+        <TextBox x:Name="uxName" TextChanged="UxName_TextChanged"
+        Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}">
+        </TextBox>
+
+        <Label x:Name="uxNameError" 
+            Content="{Binding NameError, UpdateSourceTrigger=PropertyChanged}"></Label>
+
         <TextBlock>Enter Password:</TextBlock>
-        <TextBox x:Name="uxPassword" TextChanged="UxPassword_TextChanged"></TextBox>
+        
+        <TextBox x:Name="uxPassword" TextChanged="UxPassword_TextChanged"
+        Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}">
+        </TextBox>
+
+        <Label x:Name="uxPasswordError"
+            Content="{Binding PasswordError, UpdateSourceTrigger=PropertyChanged}"></Label>
+
         <Button x:Name="uxSubmit" Click="UxSubmit_Click" IsEnabled="False">Submit</Button>
 
         <Button>
@@ -21,6 +38,15 @@
                 <TextBlock VerticalAlignment="Center" Text="Thumbs Up" />
             </StackPanel>
         </Button>
+
+        <Button Margin="20px" Height="80px">
+            <StackPanel Width="300" Height="50" Background="Azure">
+                <CheckBox HorizontalAlignment="Center">Check Me</CheckBox>
+            </StackPanel>
+        </Button>
+
+        <TextBox x:Name="uxInput" />
+        <Label Content="{Binding Text, ElementName=uxInput}" />
 
     </StackPanel>
 </Window>
