@@ -1,0 +1,20 @@
+﻿<Window x:Class="CSHP22B_HW4_ZipCodeTextBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSHP22B_HW4_ZipCodeTextBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label  Margin="10,0,0,0">US &amp; Canadian Zip Codes</Label>
+        <TextBox 
+            x:Name="uiZipCode" 
+            TextChanged="UiZipCode_TextChanged"
+            HorizontalAlignment="Left" 
+            Width="200" 
+            Margin="10,0,0,0">
+        </TextBox>
+        <Button x:Name="uiSubmit" Click="UiSubmit_Click" Content="Submit" HorizontalAlignment="Left" Width="80" Margin="10,20,0,0" IsEnabled="False"/>
+    </StackPanel>
+</Window>

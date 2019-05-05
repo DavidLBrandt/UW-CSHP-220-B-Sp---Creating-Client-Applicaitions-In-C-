@@ -67,8 +67,26 @@
     <Compile Include="ComboWindow.xaml.cs">
       <DependentUpon>ComboWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ControlWindow.xaml.cs">
+      <DependentUpon>ControlWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NumericControl.xaml.cs">
+      <DependentUpon>NumericControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuWindow.xaml.cs">
       <DependentUpon>MenuWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorWindow.xaml.cs">
+      <DependentUpon>NavigatorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceWindow.xaml.cs">
+      <DependentUpon>ResourceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RGBControl.xaml.cs">
+      <DependentUpon>RGBControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RGBWindow.xaml.cs">
+      <DependentUpon>RGBWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Sample.Context.cs">
       <AutoGen>True</AutoGen>
@@ -98,6 +116,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ControlWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dictionary2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NumericControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -114,7 +148,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="NavigatorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PanelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RGBControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RGBWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -170,6 +220,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\wpf-menus-new.png" />
+    <Resource Include="images\wpf-world.png" />
     <Content Include="Sample.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Sample.Context.cs</LastGenOutput>
