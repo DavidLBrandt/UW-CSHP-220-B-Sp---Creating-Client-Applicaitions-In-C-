@@ -26,13 +26,13 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right">Name:</TextBlock>
-        <TextBox x:Name="uxName" Grid.Column="1" Grid.Row="0" Text="{Binding Name}"></TextBox>
+        <TextBox x:Name="uxName" Text="{Binding Name}" Grid.Column="1" Grid.Row="0" />
 
         <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right">Email:</TextBlock>
-        <TextBox x:Name="uxEmail" Grid.Column="1" Grid.Row="1" Text="{Binding Email}"></TextBox>
+        <TextBox x:Name="uxEmail" Text="{Binding Email}" Grid.Column="1" Grid.Row="1"  />
 
         <TextBlock Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right">Phone Number:</TextBlock>
-        <TextBox x:Name="uxPhoneNumber" Grid.Column="1" Grid.Row="2" Text="{Binding PhoneNumber}"></TextBox>
+        <TextBox x:Name="uxPhoneNumber" Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2"  />
 
         <TextBlock Grid.Column="0" Grid.Row="3" HorizontalAlignment="Right">Phone Type:</TextBlock>
         <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="3">
@@ -41,15 +41,13 @@
         </StackPanel>
 
         <TextBlock Grid.Column="0" Grid.Row="5" HorizontalAlignment="Right">Age:</TextBlock>
-        <StackPanel  Grid.Column="1" Grid.Row="5" Orientation="Horizontal">
-            <TextBlock x:Name="uxAge" Text="{Binding ElementName=uxSlider,Path=Value}" Width="20" />
-            <Slider x:Name="uxSlider" Value="{Binding Age}" Minimum="0" Maximum="100" Width="150" IsSnapToTickEnabled="True"
-    TickFrequency="1"></Slider>
+        <StackPanel Grid.Column="1" Grid.Row="5" Orientation="Horizontal">
+            <Slider x:Name="uxAge" Value="{Binding Age}" Maximum="100" Width="100" IsSnapToTickEnabled="true" />
+            <Slider x:Name="uxAgeSlider" IsSnapToTickEnabled="True" TickFrequency="1" Minimum="0" Maximum="100" Width="150"/>
         </StackPanel>
 
         <TextBlock Grid.Column="0" Grid.Row="6" HorizontalAlignment="Right">Notes:</TextBlock>
-        <TextBox x:Name="uxNotes" Grid.Column="1" Grid.Row="6" Text="{Binding Notes}" AcceptsReturn="True" 
-                 TextWrapping="Wrap" Height="60"></TextBox>
+        <TextBox x:Name="uxNotes" Text="{Binding Notes}" Grid.Column="1" Grid.Row="5" AcceptsReturn="True" TextWrapping="Wrap" Height="60"  />
 
         <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Right">
             <Button x:Name="uxSubmit"  MinWidth="10" HorizontalAlignment="Center" Click="uxSubmit_Click" Margin="10">Add</Button>

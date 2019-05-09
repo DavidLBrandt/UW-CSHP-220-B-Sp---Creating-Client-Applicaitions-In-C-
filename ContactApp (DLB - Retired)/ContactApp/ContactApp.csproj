@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{70BF4DA7-DB7C-4860-A5A2-49BDC9104F27}</ProjectGuid>
+    <ProjectGuid>{C706E7ED-D30B-4837-9A89-CF1C1C49964F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ContactApp</RootNamespace>
     <AssemblyName>ContactApp</AssemblyName>
@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ContactRepository\ContactRepository.csproj">
-      <Project>{6cf0557d-6ced-45e6-9508-2fd7e5ed2984}</Project>
+      <Project>{64741d72-426c-4b8d-9437-bf255f3977fc}</Project>
       <Name>ContactRepository</Name>
     </ProjectReference>
   </ItemGroup>

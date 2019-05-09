@@ -19,6 +19,13 @@ namespace ContactApp
 
         public ContactModel Contact { get; set; }
 
+        private void uxCancel_Click(object sender, RoutedEventArgs e)
+        {
+            // This is the return value of ShowDialog( ) below
+            DialogResult = false;
+            Close();
+        }
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             if (Contact != null)
@@ -53,15 +60,7 @@ namespace ContactApp
                 Contact.PhoneType = "Mobile";
             }
 
-            // This is the return value of ShowDialog( ) below
             DialogResult = true;
-            Close();
-        }
-
-        private void uxCancel_Click(object sender, RoutedEventArgs e)
-        {
-            // This is the return value of ShowDialog( ) below
-            DialogResult = false;
             Close();
         }
     }

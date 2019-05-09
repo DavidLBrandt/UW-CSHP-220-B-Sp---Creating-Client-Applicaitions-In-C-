@@ -46,10 +46,5 @@ namespace ContactApp.Models
 
             return contactModel;
         }
-
-        internal ContactModel Clone()
-        {
-            return (ContactModel)this.MemberwiseClone();
-        }
     }
 }

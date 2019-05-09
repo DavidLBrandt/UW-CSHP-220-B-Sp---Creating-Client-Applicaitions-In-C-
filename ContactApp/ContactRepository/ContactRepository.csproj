@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64741D72-426C-4B8D-9437-BF255F3977FC}</ProjectGuid>
+    <ProjectGuid>{6CF0557D-6CED-45E6-9508-2FD7E5ED2984}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ContactRepository</RootNamespace>
@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ContactDB\ContactDB.csproj">
-      <Project>{ca349827-9ed3-4f59-92c0-5da2a3d32d4c}</Project>
+      <Project>{dcf4fe72-ea87-46aa-9f5f-7d661d89e51e}</Project>
       <Name>ContactDB</Name>
     </ProjectReference>
   </ItemGroup>

@@ -64,13 +64,8 @@ namespace ContactRepository
 
             if (original != null)
             {
-                var contactDB = ToDbModel(contactModel);
-
-                DatabaseManager.Instance.Entry(original)
-                    .CurrentValues.SetValues(contactDB);
-
+                DatabaseManager.Instance.Entry(original).CurrentValues.SetValues(ToDbModel(contactModel));
                 DatabaseManager.Instance.SaveChanges();
-
                 return true;
             }
 
@@ -111,4 +106,3 @@ namespace ContactRepository
         }
     }
 }
-

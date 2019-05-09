@@ -35,13 +35,6 @@ namespace ContactApp
             //uxContactList.ItemsSource = uiContactModelList;
         }
 
-        private ContactModel selectedContact;
-
-        private void uxContactList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            selectedContact = (ContactModel)uxContactList.SelectedValue;
-        }
-
         private void uxFileNew_Click(object sender, RoutedEventArgs e)
         {
             var window = new ContactWindow();
@@ -61,22 +54,10 @@ namespace ContactApp
             }
         }
 
-        private void uxFileChange_Click(object sender, RoutedEventArgs e)
+        private ContactModel selectedContact;
+        private void uxContactList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var window = new ContactWindow();
-            window.Contact = selectedContact.Clone();
-
-            if (window.ShowDialog() == true)
-            {
-                App.ContactRepository.Update(window.Contact.ToRepositoryModel());
-                LoadContacts();
-            }
-        }
-
-        private void uxFileChange_Loaded(object sender, RoutedEventArgs e)
-        {
-            uxFileChange.IsEnabled = (selectedContact != null);
-            uxContextFileChange.IsEnabled = uxFileChange.IsEnabled;
+            selectedContact = (ContactModel)uxContactList.SelectedValue;
         }
 
         private void uxFileDelete_Click(object sender, RoutedEventArgs e)
@@ -89,12 +70,24 @@ namespace ContactApp
         private void uxFileDelete_Loaded(object sender, RoutedEventArgs e)
         {
             uxFileDelete.IsEnabled = (selectedContact != null);
-            uxContextFileDelete.IsEnabled = uxFileDelete.IsEnabled;
         }
 
-        private void UxContactList_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void uxFileChange_Click(object sender, RoutedEventArgs e)
         {
-            uxFileChange_Click(null, null);
+            var window = new ContactWindow();
+            window.Contact = selectedContact;
+
+            if (window.ShowDialog() == true)
+            {
+                App.ContactRepository.Update(window.Contact.ToRepositoryModel());
+                LoadContacts();
+            }
+        }
+
+        private void uxFileChange_Loaded(object sender, RoutedEventArgs e)
+        {
+            uxFileChange.IsEnabled = (selectedContact != null);
+            uxContextFileChange.IsEnabled = uxFileChange.IsEnabled;
         }
     }
 }
