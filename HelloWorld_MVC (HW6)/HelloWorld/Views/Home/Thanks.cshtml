@@ -1,0 +1,20 @@
+﻿@model HelloWorld.Models.GuestResponse
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<head>
+    <title>RsvpForm</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<h1>Thank you, @Model.Name</h1>
+@if (Model.WillAttend == true)
+{
+    @:Thanks for coming!
+}
+else
+{
+    @:Sorry you can't make it.
+}
+
+<p>I will follow up with you at @Model.Email</p>
